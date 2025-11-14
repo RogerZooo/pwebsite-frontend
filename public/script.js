@@ -69,7 +69,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     sectionsAnim.forEach(sec => observerAnim.observe(sec));
 
-    
+    incrementVisitor();
+
 
 });
+
+async function incrementVisitor() {
+  try {
+    const response = await fetch("https://4oq0r68f5g.execute-api.us-east-1.amazonaws.com/prod/visitor", {
+      method: "POST", 
+      headers: { "Content-Type": "application/json" }
+    });
+    const data = await response.json();
+    document.getElementById("visitor-count").textContent = data.visitors;
+  } catch (error) {
+    console.error("Error calling API:", error);
+    document.getElementById("visitor-count").textContent = "Error";
+  }
+}
 

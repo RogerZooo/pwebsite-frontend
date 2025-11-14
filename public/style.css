@@ -1,6 +1,6 @@
 :root {
-  --bold: #2364aa;
-  --bg: #fffcf2;
+  --bold: #8cad9b;
+  --bg: #f8f5f0;
   --grid: rgba(37, 36, 34, 0.1);
   --secondary: #c6b79f;
   --muted: #403d39;
@@ -10,7 +10,7 @@
 
 html { scroll-behavior: smooth; }
 body {
-  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-family: 'Caveat', cursive;
   background-color: var(--bg);
   color: var(--text);
   margin: 0;
@@ -254,7 +254,6 @@ body {
 }
 
 .intro {
-  font-family: 'Indie Flower', cursive;
   font-size: 40px;
   margin-bottom: 0px;
 }
@@ -397,7 +396,7 @@ body {
   position: absolute;
   width: 333px;
   height: 200px;
-  background: #a6d2ee;
+  background: #a9d2b0;
   box-shadow: 2px 4px 12px rgba(0,0,0,0.15);
   padding: 1rem;
   font-family: 'Caveat', cursive;

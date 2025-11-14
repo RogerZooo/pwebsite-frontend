@@ -36,7 +36,7 @@
                         </svg>
                     </a>
                    
-                    <a class="social" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a class="social" href="https://github.com/RogerZooo" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
                         </svg>                    
@@ -58,24 +58,19 @@
                         <div class="head">
                             <p class="intro">Hey! I'm</p>
                             <h1 class="name">Roger Zhu</h1>
-                            <p class="subtitle">UVA Rodman Scholar | Systems Engineering</p>
-                            <a href="images/resume.pdf" download class="resume-btn">
-                                <span>Amount of Website Viewers</span>
+                            <p class="subtitle">UVA Rodman Scholar and UAA Scholar | Systems Engineering</p>
+                            <p>Visitor Count: <span id="visitor-count">loading...</span></p>
+                            <script src="script.js" defer></script>
                             </a>
                         </div>
 
                         <div id="sticky-stack">
-                            <div class="sticky">one third engineer</div>
-                            <div class="sticky">one third designer</div>
-                            <div class="sticky">one third...figuring it out</div>
-                            <div class="sticky">currently at 158 wpm</div>
-                            <div class="sticky">people call me the modern da Vinci</div>
+                            <div class="sticky">figuring it out</div>
+                            <div class="sticky">166 wpm</div>
                             <div class="sticky">5'10" is the perfect height</div>
                             <div class="sticky">hate relationship with tomatoes</div>
                             <div class="sticky">pondering the socio-economic state of the world</div>
-                            <div class="sticky">you've gone through a lot of stickies</div>
                             <div class="sticky">in a world of lemons i'm also a lemon</div>
-                            <div class="sticky">i have nothing left to say</div>
                             <img src="images/hidden-figure.png" alt="Hidden drawing" class="hidden-figure">
                         </div>
 
@@ -85,7 +80,7 @@
 
                     </div>
 
-                    <img src="images/bottom-figure.png" alt="Bottom figure" class="bottom-figure">
+                    <img src="images/bottom-figure-two.PNG" alt="Bottom figure" class="bottom-figure">
 
                 </section>
 
@@ -96,18 +91,15 @@
                             <img src="images/rz-pic.jpg" alt="About me" class="about-img floating">
                             <div class="about-text floating-delay">
                                 <p>
-                                    I'm Roger Zhu, an aspiring product design engineer who wants to create
-                                    mechanisms in an aesthetically pleasing way. 
+                                    I'm Roger Zhu, someone somewhere between engineer and everything else.
 
                                     <br><br>
-                                    Currently, I'm a first year systems engineering student at the University of Virginia. 
-                                    I learn through starting tutorials, then ignoring them. I love experimenting and adding
-                                    in a bit of me. Usually there's a community out there willing to offer a helping hand when I get stuck. 
+                                    Currently, I'm a first year engineering student at the University of Virginia. 
+                                    I've been messing around with a couple of projects and I think having a personal website is a cool way to showcase them. 
+                                    Plus, I like making visually appealing things and this gives me a technical outlet to do such!
                                     
                                     <br><br>
-                                    So far I messed around with a couple programs and applications including Fusion 360, Python, MATLAB, and 
-                                    Terraform. Some projects I've done so far include delineating nanoscopic synapses, designing and 3d printing 
-                                    servo hinges, and creating this website. Feel free to check out my work below!
+                                     Feel free to check out my work below!
                                 </p>
                                 
                             </div>                        
@@ -131,18 +123,28 @@
                     <div class="panel-inner">
                         <h2 class="project-header">Projects ────────────────────</h2>
                         <div class="project-container">
-                            <img src="images/placeholder.jpg" alt="Project 1" class="project-img">
+                            <img src="images/Website.jpg" alt="Personal Website" class="project-img">
                             <div class="project-text">
                                 <h3>Personal Website</h3>
-                                <p>A website dedicated to displaying my projects, hosted through AWS.</p>
+                                <p>This website is both a personal portfolio and a playground for experimenting with cloud tools. 
+                                    The frontend is built with HTML, CSS, and JavaScript, while the backend uses AWS Lambda and DynamoDB to track visitors. 
+                                    Everything runs on AWS: served from S3, distributed with CloudFront, and managed through Route 53. This project was a nice way
+                                    to create something aesthetically pleasing while also serving as a useful tool to showcase projects in the future. I'll keep 
+                                    playing with it and making it more professional as I learn and mess around more!
+                                </p>
                             </div>
                         </div>
 
                         <div class="project-container">
-                            <img src="images/placeholdertwo.jpg" alt="Project " class="project-img">
+                            <img src="images/Matlab.png" alt="Image Analysis Tool" class="project-img">
                             <div class="project-text">
-                                <h3>Image Analysis Program</h3>
-                                <p>An algorithmic approach to image analysis through deconvolution and function fitting.</p>
+                                <h3>Image Analysis Tool</h3>
+                                <p>During my research, I developed a MATLAB-based image analysis program to improve the accuracy of fluorescence microscopy. 
+                                    It includes tools for motion correction and curve fitting to compensate for light diffraction at the nanoscopic scale, 
+                                    helping researchers better pinpoint neurotransmitter release sites on axon terminals. 
+                                    The program can process ex vivo images with ~95% accuracy and shows promising results in vivo as well. 
+                                    This project has given me a deep understanding of data analysis and experience in a professional research environment.
+                                </p>
                             </div>
                         </div>
                     </div>
